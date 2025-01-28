@@ -14,3 +14,8 @@ export interface TwoFactorAuth {
   email: string;
   code: string;
 }
+
+export interface ApiResponse {
+  message: string;
+  token?: string;
+}
